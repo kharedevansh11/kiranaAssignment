@@ -352,4 +352,32 @@ body {
   text-transform: uppercase;
 }
 
+.graph-section {
+  width: 100%;
+}
+
+.graph-container {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  opacity: 0;
+}
+
+.graph-container.show {
+  max-height: 500px;
+  opacity: 1;
+  transition: max-height 0.3s ease-in, opacity 0.3s ease-in;
+}
+
+.Polaris-Button {
+  position: relative;
+  text-align: left;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.Polaris-Button:hover {
+  background-color: var(--surface-hovered);
+}
+
 /* Rest of your existing styles without dark mode related code */ 

@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Page, Layout, Card, Button, ButtonGroup, Text } from '@shopify/polaris';
-import { StarFilledIcon, StarIcon } from '@shopify/polaris-icons';
+import { StarFilledIcon, StarIcon, ChevronDownIcon, ChevronUpIcon } from '@shopify/polaris-icons';
 import { useFavorites } from '../hooks/useFavorites';
 import { fetchContests } from '../services/api';
 import ContestList from '../components/ContestList/ContestList';
@@ -18,6 +18,7 @@ function Dashboard() {
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(10);
   const [showFavorites, setShowFavorites] = useState(false);
+  const [showGraph, setShowGraph] = useState(false);
   const { favorites, toggleFavorite, isFavorite } = useFavorites();
 
   useEffect(() => {
@@ -60,6 +61,10 @@ function Dashboard() {
     setShowFavorites(!showFavorites);
   };
 
+  const toggleGraph = () => {
+    setShowGraph(!showGraph);
+  };
+
   return (
     <Page>
       <div className="dashboard-container">
@@ -97,7 +102,20 @@ function Dashboard() {
           
           <Layout.Section>
             <Card sectioned>
-              <ContestGraph contests={filteredContests} />
+              <div className="graph-section">
+                <Button
+                  onClick={toggleGraph}
+                  icon={showGraph ? ChevronUpIcon : ChevronDownIcon}
+                  fullWidth
+                  textAlign="left"
+                >
+                  {showGraph ? 'Hide Contest Duration Graph' : 'Show Contest Duration Graph'}
+                </Button>
+                
+                <div className={`graph-container ${showGraph ? 'show' : ''}`}>
+                  <ContestGraph contests={filteredContests} />
+                </div>
+              </div>
             </Card>
           </Layout.Section>
 
