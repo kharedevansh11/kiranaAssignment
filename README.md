@@ -1,75 +1,86 @@
-<<<<<<< HEAD
-# kiranaAssignment
-A modern React dashboard for tracking Codeforces contests. Features include real-time contest tracking, favorites management, interactive visualizations, and advanced filtering. Built with Shopify Polaris for a clean, responsive UI. Perfect for competitive programmers to stay organized.
-=======
-# Getting Started with Create React App
+# Codeforces Contest Dashboard 🏆
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, user-friendly dashboard built with React and Shopify Polaris to explore and interact with Codeforces contests data.
 
-## Available Scripts
+[Add a GIF showcasing the application here]
 
-In the project directory, you can run:
+## 🌟 Features
 
-### `npm start`
+### Core Features
+- 📋 **Contest Listing**: Browse through a comprehensive list of Codeforces contests
+- 🔍 **Advanced Filtering**:
+  - Filter contests by type (ICPC/CF)
+  - Search contests by name with dynamic filtering
+  - Smart debouncing for optimal performance
+- 📊 **Data Visualization**:
+  - Interactive graphs showing contest duration trends
+  - Dynamic filtering based on contest phase and type
+- 📱 **Responsive Design**: Seamless experience across all devices
+- 📖 **Pagination**: Client-side pagination with customizable items per page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Additional Features
+- ⭐ **Favorites System**: Mark and filter your favorite contests
+- 🔎 **Detailed Contest View**: Comprehensive information for each contest
+- 🌐 **Local Time Conversion**: Contest times displayed in user's local timezone
+- 💡 **Enhanced UX**: Tooltips and intuitive interface elements
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🖼️ Screenshots
 
-### `npm test`
+### Dashboard Overview
+[Add dashboard screenshot here]
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Contest Details Page
+[Add contest details page screenshot here]
 
-### `npm run build`
+### Data Visualization
+[Add visualization screenshot here]
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Live Demo
+[Add your Vercel deployment link here]
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Technologies Used
+- React.js
+- Shopify Polaris
+- [Your chosen charting library]
+- Codeforces API
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ⚙️ Setup and Installation
 
-### `npm run eject`
+1. Clone the repository:
+```bash
+git clone [your-repo-link]
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Install dependencies:
+```bash
+cd frontend-assignment
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Start the development server:
+```bash
+npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Build for production:
+```bash
+npm run build
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 🔑 API Information
+This project uses the Codeforces API:
+- Base URL: https://codeforces.com/api/
+- Endpoints Used:
+  - `/contest.list`: Fetches the list of all contests
 
-## Learn More
+## 🤝 Contributing
+Feel free to contribute to this project. Open an issue or submit PRs.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 📝 License
+[Add your chosen license here]
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 👤 Author
+[Your Name]
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
->>>>>>> master
+---
+⭐ Star this repository if you find it helpful!
