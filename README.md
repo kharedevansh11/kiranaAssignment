@@ -2,7 +2,7 @@
 
 A modern, user-friendly dashboard built with React and Shopify Polaris to explore and interact with Codeforces contests data.
 
-[Add a GIF showcasing the application here]
+
 
 ## 🌟 Features
 
@@ -27,21 +27,24 @@ A modern, user-friendly dashboard built with React and Shopify Polaris to explor
 ## 🖼️ Screenshots
 
 ### Dashboard Overview
-[Add dashboard screenshot here]
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/23931985-50cb-4cc8-bbee-2fd448a9a14d" />
+
 
 ### Contest Details Page
-[Add contest details page screenshot here]
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/30a11eaf-e90e-4d59-a18f-4034310b028d" />
+
 
 ### Data Visualization
-[Add visualization screenshot here]
+<img width="1440" alt="image" src="https://github.com/user-attachments/assets/a6a0c67a-33d5-4317-96c5-36d258853bcd" />
+
 
 ## 🚀 Live Demo
-[Add your Vercel deployment link here]
-
+[Live link
+](https://kirana-assignment.vercel.app/)
 ## 🛠️ Technologies Used
 - React.js
 - Shopify Polaris
-- [Your chosen charting library]
+- Recharts
 - Codeforces API
 
 ## ⚙️ Setup and Installation
@@ -76,11 +79,10 @@ This project uses the Codeforces API:
 ## 🤝 Contributing
 Feel free to contribute to this project. Open an issue or submit PRs.
 
-## 📝 License
-[Add your chosen license here]
+
 
 ## 👤 Author
-[Your Name]
+[Devansh Khare](https://www.linkedin.com/in/devanshkhare11/)
 
 ---
 ⭐ Star this repository if you find it helpful!
